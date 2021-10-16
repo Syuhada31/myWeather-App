@@ -1,0 +1,99 @@
+h1 {
+    margin-left: 50px;
+  }
+  
+  h2 {
+    margin-left: 50px;
+  }
+  
+  h3 {
+    margin-left: 200px;
+  }
+  
+  h4 {
+    display: inline-block;
+    margin-left: 75px;
+    margin-bottom: px;
+  }
+  .container {
+    text-align: center;
+  }
+  .search-bar {
+    text-align: center;
+  }
+  .country {
+    margin-left: 40px;
+    font-family: Luminari, fantasy;
+  }
+  .degree {
+    margin-left: 20px;
+  }
+  .number {
+    margin-left: 50px;
+    font-family: Stencil Std, fantasy;
+  }
+  .col-7 {
+    text-align: center;
+    margin-left: 160px;
+    font-family: Optima, sans-serif;
+    color: #7b241c;
+  }
+  .input-group mb-3 {
+    text-align: center;
+  }
+  
+  .btn-success {
+    background-color: #cd6155;
+    color: white;
+    font-family: "Poppins", sans-serif, "Times New Roman", Times, serif;
+    border-radius: 30px;
+    border: 1px solid #cd6155;
+  }
+  
+  .search-buton {
+    background-color: #cd6155;
+    color: white;
+    font-family: "Poppins", sans-serif, "Times New Roman", Times, serif;
+    border-radius: 30px;
+    border: 1px solid #cd6155;
+    padding: 5px 15px;
+  }
+  
+  .wind {
+    margin-left: 12px;
+  }
+  
+  .degree {
+    margin-left: 50px;
+    font-size: larger;
+    font-family: Stencil Std, fantasy;
+    color: #a93226;
+  }
+  
+  .fa-cloud-sun {
+    color: #f4d03f;
+    margin-right: 20px;
+    font-size: 75px;
+  }
+  .container {
+    margin: 120px auto;
+    padding: 5px 180px;
+    border-radius: 20px;
+    border: 1px solid #d98880;
+    background-color: #f9ebea;
+  }
+  
+  .temperature {
+    margin-left: 25px;
+  }
+  .col-sm {
+    margin: 4px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
+  }
+  
+  .fa-cloud-sun-rain {
+    color: #007580;
+    font-size: 80px;
+  }
+  
