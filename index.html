@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/a8b1e0f749.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="central-section">
+        <form id="search-bar">
+          <input
+            type="text"
+            id="city-input"
+            placeholder="Search for a city ..."
+            autocomplete="off"
+            autofocus
+          />
+          <input type="submit" value="Search" class="btn-success" />
+          <button id="current-button" class="btn-success">Current Location</button>
+        </form>
+      <br />
+
+      <div class="place-date-time">
+        <h1 class"country" id="city">Singapore</h1>
+        <h2>Monday, September 19th 15:30</h2>
+
+      </div>
+      
+     
+      <h3 id="description" class="degree">
+      
+
+        
+      </h3>
+
+      <h4 class="number" id="temperature">19</h4>
+      <a id="Celsius" href="#">°C</a> 
+      
+    </span>
+    <div class="col-7">
+      <ul>
+          Percipatation: 10% 
+          Humidity: <span id="humidity"></span>%
+          Wind: <span id="wind"></span> km/h
+      </ul>
+  </div>
+     
+
+      <hr />
+
+      <div class="row">
+        <div class="col-sm">
+          Wednesday
+          <p class="temperature">33°C <i class="fas fa-cloud-sun"></i></p>
+
+          <hr />
+        </div>
+
+        <div class="col-sm">
+          Thursday
+          <p class="temperature">31°C <i class="fas fa-cloud-sun-rain"></i></p>
+          <hr />
+        </div>
+
+        <div class="col-sm">
+          Friday
+
+          <p class="temperature">31°C <i class="fas fa-cloud-sun-rain"></i></p>
+          <hr />
+        </div>
+
+        <div class="col-sm">
+          Saturday
+          <p class="temperature">31°C <i class="fas fa-cloud-sun-rain"></i></p>
+          <hr />
+        </div>
+
+        <div class="col-sm">
+          Sunday
+          <p class="temperature">31°C <i class="fas fa-cloud-sun-rain"></i></p>
+          <hr />
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
