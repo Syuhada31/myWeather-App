@@ -43,7 +43,7 @@ h2.innerHTML = `${day}, ${month} ${date} , ${hours}:${minutes}`;
 function showCelsius(event) {
   event.preventDefault();
   let celsius = document.querySelector("h4");
-  celsius.innerHTML = "19°";
+  celsius.innerHTML = "19";
 }
 let displaycelsius = document.querySelector("#Celsius");
 displaycelsius.addEventListener("click", showCelsius);
