@@ -40,7 +40,7 @@ let month = months[now.getMonth()];
 let h2 = document.querySelector("h2");
 h2.innerHTML = `${day}, ${month} ${date} , ${hours}:${minutes}`;
 
-celsiusTemperature = response.data.main.temp;
+
 
 function displayWeatherCondition(response) {
   console.log(response.data.name);
