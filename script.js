@@ -40,7 +40,7 @@ let month = months[now.getMonth()];
 let h2 = document.querySelector("h2");
 h2.innerHTML = `${day}, ${month} ${date} , ${hours}:${minutes}`;
 
-
+celsiusTemperature = response.data.main.temp;
 
 function displayWeatherCondition(response) {
   console.log(response.data.name);
@@ -56,7 +56,7 @@ function displayWeatherCondition(response) {
     response.data.weather[0].description;
 }
 
-celsiusTemperature = response.data.main.temp;
+
 
 function searchCity(city) {
   let apiKey = "6a40fb3730e1b90ea73fd96f4eab80d7";
@@ -111,5 +111,9 @@ currentLocationButton.addEventListener("click", getCurrentLocation);
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
+
+let celsiusLink = document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", displayCelsiusTemperature);
+
 
 searchCity("New York");
