@@ -44,6 +44,7 @@ h2.innerHTML = `${day}, ${month} ${date} , ${hours}:${minutes}`;
 
 function displayWeatherCondition(response) {
   console.log(response.data.name);
+  celsiusTemperature = response.data.main.temp;
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
