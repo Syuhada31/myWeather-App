@@ -64,7 +64,7 @@ h1 {
     box-shadow: none;
   }
   .btn-success:active {
-    color:#D98880;
+    background-color:#D98880;
     box-shadow: none;
   }
   
@@ -90,7 +90,7 @@ h1 {
     box-shadow: none;
   }
   .search-buton:active {
-    color:#D98880;
+    background-color:#D98880;
     box-shadow: none;
   }
 
