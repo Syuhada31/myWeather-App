@@ -47,7 +47,7 @@ h1 {
     color: white;
     font-family: "Poppins", sans-serif, "Times New Roman", Times, serif;
     border-radius: 30px;
-    border: 1px solid #cd6155;
+    
   }
   
   .btn-success:hover {
@@ -59,13 +59,14 @@ h1 {
   .btn-success:active {
 
     border-color: #cd6155;
+
   }
   .search-buton {
     background-color: #cd6155;
     color: white;
     font-family: "Poppins", sans-serif, "Times New Roman", Times, serif;
     border-radius: 30px;
-    border: 1px solid #cd6155;
+    
     padding: 5px 15px;
 
   }
