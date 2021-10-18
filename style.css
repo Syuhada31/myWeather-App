@@ -47,7 +47,7 @@ h1 {
     color: white;
     font-family: "Poppins", sans-serif, "Times New Roman", Times, serif;
     border-radius: 30px;
-    
+    border: 1px solid #cd6155;
   }
   
   .btn-success:hover {
@@ -66,7 +66,7 @@ h1 {
     color: white;
     font-family: "Poppins", sans-serif, "Times New Roman", Times, serif;
     border-radius: 30px;
-    
+    border: 1px solid #cd6155;
     padding: 5px 15px;
 
   }
@@ -74,7 +74,9 @@ h1 {
    background-color:  #C0392B ;
   }
   .search-buton:active {
-    border-color: #cd6155;
+    border-color:  #C0392B ;
+    background-color:  #C0392B;
+    
 }
 
   
