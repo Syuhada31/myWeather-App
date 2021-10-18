@@ -50,6 +50,11 @@ h1 {
     border: 1px solid #cd6155;
   }
   
+  .btn-success:hover {
+
+    border-color: #cd6155 ;
+
+}
   .search-buton {
     background-color: #cd6155;
     color: white;
@@ -68,6 +73,7 @@ h1 {
     font-size: larger;
     font-family: Stencil Std, fantasy;
     color: #a93226;
+    text-transform: capitalize;
   }
   
   .fa-cloud-sun {
