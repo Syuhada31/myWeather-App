@@ -60,7 +60,7 @@ h1 {
   }
 
   .btn-success:focus {
-    outline: none;
+    outline: none !important;
   }
   
   .search-buton {
@@ -75,13 +75,13 @@ h1 {
   }
 
   .search-buton:hover {
-   background-color:  #D98880  ;
+   background-color:  #D98880  
    border-color: #D98880 ;
   }
  
   .search-buton:focus {
    
-    outline: none;
+    outline: none !important;
   }
   
   .wind {
