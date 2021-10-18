@@ -48,6 +48,7 @@ h1 {
     font-family: "Poppins", sans-serif, "Times New Roman", Times, serif;
     border-radius: 30px;
     border: 1px solid #cd6155;
+    outline: none;
   }
   
   .btn-success:hover {
