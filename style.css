@@ -74,7 +74,10 @@ h1 {
    border-color: #D98880 ;
   }
  
-
+  .search-buton:active {
+    border-color: #cd6155;
+    
+  }
   
   .wind {
     margin-left: 12px;
