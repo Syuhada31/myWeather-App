@@ -58,6 +58,9 @@ h1 {
     
   }
 
+  .btn-success:active {
+    outline: none;
+  }
   
   .search-buton {
     background-color: #cd6155;
@@ -76,7 +79,7 @@ h1 {
  
   .search-buton:active {
     border-color: #cd6155;
-    
+    outline: none;
   }
   
   .wind {
