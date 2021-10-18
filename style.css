@@ -103,12 +103,12 @@ h1 {
     font-family: "Courier New", Courier, monospace;
   }
 
-.weather-temperature .active {
+ .active {
   color: rgb(33, 33, 33);
   cursor: default;
 }
 
-.weather-temperature .active:hover {
+ .active:hover {
 text-decoration: none;
 
 }
