@@ -59,7 +59,7 @@ h1 {
     
   }
 
-  .btn-success:active {
+  .btn-success:focus {
     outline: none;
   }
   
@@ -79,8 +79,8 @@ h1 {
    border-color: #D98880 ;
   }
  
-  .search-buton:active {
-    border-color: #cd6155;
+  .search-buton:focus {
+   
     outline: none;
   }
   
