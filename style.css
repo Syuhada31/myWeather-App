@@ -52,10 +52,14 @@ h1 {
   
   .btn-success:hover {
 
-    border-color: white ;
+   background-color: #C0392B ;
     
+  }
 
-}
+  .btn-success:active {
+
+    border-color: #cd6155;
+  }
   .search-buton {
     background-color: #cd6155;
     color: white;
@@ -66,8 +70,11 @@ h1 {
 
   }
   .search-buton:hover {
-    border-color: white ;
+   background-color:  #C0392B ;
   }
+  .search-buton:active {
+    border-color: #cd6155;
+}
 
   
   .wind {
