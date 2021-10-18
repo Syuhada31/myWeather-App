@@ -59,7 +59,7 @@ h1 {
     
   }
 
-  .btn-success:focus :active {
+.btn-success:focus {
     outline: none !important;
     box-shadow: none;
   }
@@ -76,11 +76,11 @@ h1 {
   }
 
   .search-buton:hover {
-   background-color:  #D98880  
+   background-color:  #D98880  ;
    border-color: #D98880 ;
   }
  
-  .search-buton:focus :active{
+  .search-buton:focus {
    
     outline: none !important;
     box-shadow: none;
