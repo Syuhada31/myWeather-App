@@ -59,8 +59,9 @@ h1 {
     
   }
 
-  .btn-success:focus {
+  .btn-success:focus :active {
     outline: none !important;
+    box-shadow: none;
   }
   
   .search-buton {
@@ -79,9 +80,10 @@ h1 {
    border-color: #D98880 ;
   }
  
-  .search-buton:focus {
+  .search-buton:focus :active{
    
     outline: none !important;
+    box-shadow: none;
   }
   
   .wind {
