@@ -52,7 +52,8 @@ h1 {
   
   .btn-success:hover {
 
-    border-color: #cd6155 ;
+    border-color: white ;
+    
 
 }
   .search-buton {
@@ -62,7 +63,12 @@ h1 {
     border-radius: 30px;
     border: 1px solid #cd6155;
     padding: 5px 15px;
+
   }
+  .search-buton:hover {
+    border-color: white ;
+  }
+
   
   .wind {
     margin-left: 12px;
