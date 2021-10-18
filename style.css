@@ -38,6 +38,9 @@ h1 {
     font-family: Optima, sans-serif;
     color: #7b241c;
   }
+  .col-12 {
+    text-align: center;
+  }
   .input-group mb-3 {
     text-align: center;
   }
